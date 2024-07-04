@@ -3,16 +3,17 @@ import './App.css';
 
 function App() {
   return (
-    <div className="header">
-      <header className="App-header">
-        <h1>
+    <div >
+       <h1>
           Counter is Zero
         </h1>
-        
-        
-        
-      </header>
-    </div>
+        <button>
+          Increament
+        </button>
+        <button>
+          Decreament
+        </button>
+            </div>
   );
 }
 
