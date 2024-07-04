@@ -1,17 +1,19 @@
 
 import './App.css';
 
-function App() {
+
+
+const App() {
   return (
     <div >
        <h1>
           Counter is Zero
         </h1>
-        <button>
-          Increament
+        <button onClick={incrementClick}>
+          Increment
         </button>
-        <button>
-          Decreament
+        <button onClick={decrementClick} >  
+          Decrement
         </button>
             </div>
   );
