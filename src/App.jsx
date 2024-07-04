@@ -1,9 +1,22 @@
-
+import {React, useState} from 'react';
 import './App.css';
 
 
 
-const App() {
+const App = () => {
+// state
+  const [count, setCount] = useState(0);
+
+  const incrementClick = () => {
+    console.log('clicked');
+    setCount(count + 1);
+  };
+  
+  const decrementClick = () => {
+    console.log('clicked');
+    setCount(count - 1);
+  };
+
   return (
     <div >
        <h1>
